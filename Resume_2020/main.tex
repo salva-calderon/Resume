@@ -1,0 +1,181 @@
+% Resume in LaTeX
+% Guillermo Salvador Calderon Lopez
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+% Commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+%-----------RESUME 2020-----------
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Huge \scshape Guillermo Salvador Calderon Lopez} \\ \vspace{1pt}
+    \small +52-998-125-0999 $|$ \href{mailto:gscalderon99@hotmail.com}{\underline{gscalderon99@hotmail.com}} $|$ 
+    \href{https://github.com/salva-calderon/}{\underline{github.com/salva-calderon}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Monterrey Institute of Technology and Higher Education}{Monterrey, Mexico}
+      {B.S. in Computer Science and Technology Engineering}{Expected Graduation Date: June 2023}
+      \resumeItemListStart
+        \resumeItem{GPA: 97/100}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------SKILLS-----------
+\section{Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming Languages}{: Python, C/C++, MATLAB, R} \\
+     \textbf{Technologies}{: Git, Android, iOS} \\
+     \textbf{Languages}{: Spanish (Native), English (Full Professional), French (Beginner)} \\
+    }}
+ \end{itemize}
+
+%-----------WORK EXPERIENCE-----------
+\section{Work Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Platform Administrator at Met. Conecta}{Monterrey, Mexico}
+      {Company focused on entrepreneurship}{Aug. 2019 –- June 2020}
+      \resumeItemListStart
+        \resumeItem{Directed 5 entrepreneurs with technology projects, through linkage and proven methodologies in three areas:  innovation, entrepreneurship and training.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------MAJOR SCHOOL PROJECTS-----------
+\section{Major School Projects}
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {Streaming Site Menu}{Monterrey, Mexico}
+      {OOP Final Project}{June 2020}
+      \resumeItemListStart
+        \resumeItem{Developed a C++ program that simulates a Streaming Site Menu. This program read 3 CVS files and using features of object-oriented programming generates reports of the movies and series according to their genre, rating and duration.}
+      \resumeItemListEnd
+      \resumeSubheading
+      {Dynamic simulation of projectiles thrown by Popocatepetl}{Monterrey, Mexico}
+      {Engineering and Science Modeling Final Project}{Oct. 2019}
+      \resumeItemListStart
+        \resumeItem{Developed a computational simulation in MATLAB that takes into account the calculation of the trajectories of volcanic objects and the precise place of the crash with an uncertainty of less than 2 percent, which helps to optimize rescue efforts in a volcanic eruption situation.
+}
+      \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%-----------MAJOR CONTEST AWARDS-----------
+\section{Major Contest Awards}
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {Oracle Cup –- Top TEEN Programmer 2019}{Monterrey, Mexico}
+      {Solved problems related to number theory, geometry, greedy, using Python}{Oct. 2019}
+      \resumeItemListStart
+        \resumeItem {Awarded 10th place out of 65 students in my first year of career at Monterrey Institute of Technology and Higher Education.}
+      \resumeItemListEnd
+      \resumeSubheading
+      {Mexican Mathematical Olympiad (OMM)}{Mexico}
+      {Solved problems related to geometry, number theory, combinatorics and algebra}{2016 –- 2018}
+      \resumeItemListStart
+        \resumeItem{Awarded a \textbf{National Honorable Mention} out of the best 6 students from each state in Mexico.}
+        \resumeItem{Awarded \textbf{2 Regional Bronze Medals} out of the best 8 students from each state of the south zone in Mexico.}
+        \resumeItem{Awarded \textbf{2 Gold State Medals} out of more than 1 thousand students in Quintana Roo.}
+      \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%-----------LEADERSHIP-----------
+\section{Leadership}
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {Mexican Mathematical Olympiad in Quintana Roo (OMMQROO) }{Cancun, Mexico}
+      {Committee Member: Official Trainer}{Early 2017 -- Present}
+      \resumeItemListStart
+        \resumeItem{Trained 40 students for one month with intensive courses to develop their skills in geometry, number theory, combinatorics and algebra.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Board of Directors at UNIDOS}{Cancun, Mexico}
+      {Social Project}{2018 -- Present}
+      \resumeItemListStart
+        \resumeItem{Boosted youth participation in volunteer activities in efforts to promote union and solidarity in society.}
+    \resumeItem{In 2019 the project had the participation of 1,500 volunteers and in 2020 more than 5,000 volunteers were registered, but it was canceled due to the pandemic.}
+      \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+\end{document}
